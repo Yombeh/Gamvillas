@@ -1,0 +1,97 @@
+﻿<!-- Top Heading -->
+<header class="site-header">
+    <h1 class="site-title">🏡 GamVillas</h1>
+</header>
+
+<!-- Hero Section -->
+<div class="hero-container">
+    <img src="~/images/slide2.jpg" class="hero-image" alt="Inspiration" />
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+        <h2>Your Dream Home Awaits</h2>
+        <p>Building comfort, style, and happiness — one villa at a time.</p>
+        <a href="#explore" class="hero-btn">Discover More</a>
+    </div>
+</div>
+
+<!-- Styles -->
+<style>
+
+
+/* Header */
+.site-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+/* Hero Section */
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    animation: fadeInDown 1s ease-out;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.hero-btn {
+    padding: 12px 25px;
+    background: #ff7e5f;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.hero-btn:hover {
+    background: #feb47b;
+}
+
+
