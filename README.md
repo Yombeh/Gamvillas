@@ -1,10 +1,10 @@
 # GamVillas
 
 ## Project Overview
-**VillaFinder Gambia** is a web application developed to **ease the process of finding villas in The Gambia**. Tourism is a key source of income for the country, but tourists often struggle to find suitable accommodations. Our application provides a curated list of the top villas in The Gambia and allows users to view, add, update, and delete villa information efficiently.
+**Gamvillas** is a web application developed to **ease the process of finding villas in The Gambia**. Tourism is a key source of income for the country, but tourists often struggle to find suitable accommodations. Our application provides a curated list of the top villas in The Gambia and allows users to view, add, update, and delete villa information efficiently.
 
 ## Problem Statement
-Tourists visiting The Gambia face difficulties in **finding quality villas and booking accommodations**. This problem reduces the convenience and experience of tourism in the country. VillaFinder Gambia tackles this by providing a **centralized, easy-to-use platform** for discovering and managing villa listings.
+The Gambia recieves over 200,000 tourist each year but there lies a key struggle, Finding villas that suit each tourist need. GamVillas is here to remove that struggle by having a list of all Villas in The Gambia with their Location, Prices, room sizes , photos and videos. Gamvillas will Tourist the opportunity to book their prefered hotels which will  reduce the convenience and experience of tourism in the country. GamVillas tackles this by providing a **centralized, easy-to-use platform** for discovering and managing villa listings.
 
 ## Solution / Features
 Our application implements a full **CRUD (Create, Read, Update, Delete) system** for villa management. Key features include:
@@ -16,7 +16,7 @@ Our application implements a full **CRUD (Create, Read, Update, Delete) system**
 
 ## Tech Stack
 - **Backend:** .NET MVC with Clean Architecture
-- **Frontend:** JavaScript, Bootstrap, jQuery
+- **Frontend:**HTML, css, JavaScript, Bootstrap, jQuery
 - **Database:** MSSQL using Express
 - **Notifications:** Toastr
 
